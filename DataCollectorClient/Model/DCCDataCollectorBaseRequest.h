@@ -27,7 +27,7 @@
 @property(nonatomic) NSString* deviceId;
 /* A key/value list of properties for this event. Values can be numerical, strings or booleans, proper typing matters (quoted vs unquoted) [optional]
  */
-@property(nonatomic) NSObject* eventProperties;
+@property(nonatomic) NSDictionary* eventProperties;
 /* Epoch timestamp <i>in milliseconds</i> of when event itself occurred 
  */
 @property(nonatomic) NSNumber* eventTimestamp;
